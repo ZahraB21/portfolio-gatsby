@@ -1,5 +1,6 @@
 import React from "react"
-import { Link, graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Layout from '../components/Layout/Layout';
 import styles from '../styles/home.module.css'
 import Img from "gatsby-image"
@@ -11,8 +12,7 @@ export default function Home({ data }) {
       <section className={styles.header}>
           <h2>Hello, I'm Zahra Jana Behfarshad</h2>
           <h3>A Web Developer | Front-End Dev</h3>
-          <Link className={styles.btn} to="/projects">View Work</Link>
-        {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
+          <Link to="/projects" className={styles.btn} >View Work <ArrowForwardIcon className={styles.forwardIcon} /></Link>
       </section>
     </Layout>
   )

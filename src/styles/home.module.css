@@ -1,7 +1,8 @@
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
+  display: flex;
+  height: 80vh;
+  flex-direction: column  ;
+  justify-content: center;
   align-items: center;
 }
 .header h2 {
@@ -13,10 +14,17 @@
   margin-bottom: 20px;
 }
 .btn {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #D42990;
   padding: 10px 16px;
   border-radius: 10px;
   margin-top: 20px;
   font-weight: 500;
+  width: 180px;
+  text-align: center;
+}
+.forwardIcon {
+  margin-left: 0.5rem;
 }
