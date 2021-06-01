@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../components/Layout'
+import Layout from '../../components/Layout/Layout';
 import styles from '../../styles/projects.module.css'
 import { Link, graphql } from 'gatsby'
 import Img from "gatsby-image"
