@@ -1,6 +1,6 @@
 import React from "react"
 import Img from "gatsby-image"
-import Layout from "../components/Layout"
+import Layout from "../components/Layout/Layout";
 import styles from '../styles/project-details.module.css'
 
 const ProjectDetails = ({ data }) => {
