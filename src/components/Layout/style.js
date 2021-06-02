@@ -9,5 +9,11 @@ export default makeStyles(theme => ({
            maxWidth: '400px',
         },
         margin: '0 auto',
+    },
+    footerDetails: {
+        width: '100%',
+        textAlign: 'center',
+        color: '#bbb',
+        margin: '30px auto',
     }
 }));
