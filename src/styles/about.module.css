@@ -1,3 +1,25 @@
 .aboutSection {
     margin-top: 1rem;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    padding: 1rem 0 0.5rem 0;
+    color: #d42991;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.skillset{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.bold{
+    font-weight: bold;
+    font-style: italic;
+    color: #ebedee;
 }
