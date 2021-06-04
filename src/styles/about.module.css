@@ -1,6 +1,6 @@
 .aboutSection {
     margin-top: 1rem;
-    height: 80vh;
+    height: 78vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,7 @@
 .skillset{
     font-weight: normal;
     font-size: 1rem;
+    display: block;
 }
 
 .bold{
