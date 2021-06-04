@@ -8,10 +8,11 @@ const About = () => {
     <Layout>
       <Box className={styles.aboutSection}>
         <Grid container>
-          <Grid item xs={5}>
-            <Typography variant="h2">About</Typography>
+          <Grid item xs={5} className={styles.about}>
+            <Box className={styles.img}></Box>
           </Grid>
           <Grid item xs={7}>
+          <Typography variant="h2" className={styles.aboutTitle}>About</Typography>
             <Typography variant="h5">I'm a freelance developer located at Vancouver, BC. </Typography>
             <Typography variant="h5">I'm passionate about creating <span className={styles.bold}>fast, responsive, creative and dynamic user experience.</span></Typography>
             <Typography variant="h5" className={styles.skills}>Skills</Typography>
@@ -32,6 +33,7 @@ const About = () => {
                 <Typography variant="body" className={styles.skillset}>PHP</Typography>
                 <Typography variant="body" className={styles.skillset}>MySQL</Typography>
                 <Typography variant="body" className={styles.skillset}>C#</Typography>
+                <Typography variant="body" className={styles.skillset}>WordPress</Typography>
               </Grid>
             </Grid>
             
