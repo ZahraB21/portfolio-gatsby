@@ -15,7 +15,26 @@ const About = () => {
             <Typography variant="h5">I'm a freelance developer located at Vancouver, BC. </Typography>
             <Typography variant="h5">I'm passionate about creating <span className={styles.bold}>fast, responsive, creative and dynamic user experience.</span></Typography>
             <Typography variant="h5" className={styles.skills}>Skills</Typography>
-            <Typography variant="body" className={styles.skillset}>HTML5, CSS3, SASS, JavaScript, Material-UI, BootStrap, React, Redux, Node, Express, WordPress, MySQL</Typography>
+            <Grid container>
+              <Grid item xs={6}>
+                <Typography variant="body" className={styles.skillset}>HTML5</Typography>
+                <Typography variant="body" className={styles.skillset}>CSS3</Typography>
+                <Typography variant="body" className={styles.skillset}>SASS</Typography>
+                <Typography variant="body" className={styles.skillset}>JavaScript</Typography>
+                <Typography variant="body" className={styles.skillset}>React</Typography>
+                <Typography variant="body" className={styles.skillset}>Redux</Typography>
+                <Typography variant="body" className={styles.skillset}>Material-UI</Typography>
+                <Typography variant="body" className={styles.skillset}>Bootstrap</Typography>
+              </Grid>
+              <Grid item xs={6}>
+                <Typography variant="body" className={styles.skillset}>Node.JS</Typography>
+                <Typography variant="body" className={styles.skillset}>Express</Typography>
+                <Typography variant="body" className={styles.skillset}>PHP</Typography>
+                <Typography variant="body" className={styles.skillset}>MySQL</Typography>
+                <Typography variant="body" className={styles.skillset}>C#</Typography>
+              </Grid>
+            </Grid>
+            
           </Grid>
         </Grid>
       </Box>
