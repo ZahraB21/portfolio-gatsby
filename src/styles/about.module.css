@@ -6,6 +6,24 @@
     align-items: center;
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutTitle {
+    color: #bbb;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #d42991;
+}
+
 .skills{
     padding: 1rem 0 0.5rem 0;
     color: #d42991;
