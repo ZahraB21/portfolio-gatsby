@@ -10,8 +10,8 @@ const Contact = () => {
                 <Grid item xs={4}>
                     <Typography variant="h3">Want to grab coffee and discuss your idea?</Typography>
                 </Grid>
-                <Grid item xs={8}>
-                    <form>
+                <Grid item xs={7}>
+                    <form className={styles.form}>
                         <TextField
                             variant="outlined"
                             margin="normal"
@@ -32,7 +32,7 @@ const Contact = () => {
                             type="email"
                             id="email"
                         />
-                        <TextareaAutosize label="Message" aria-label="minimum height" fullWidth rowsMin={3} placeholder="Minimum 3 rows" />
+                        <TextareaAutosize className={styles.textArea} label="Message" aria-label="minimum height" fullWidth rowsMin={10} placeholder="Enter your message here ..." />
                         <Button
                             type="submit"
                             fullWidth
@@ -42,18 +42,6 @@ const Contact = () => {
                         >
                             Sign In
                         </Button>
-                        <Grid container>
-                            <Grid item xs>
-                            <Link href="#" variant="body2">
-                                Forgot password?
-                            </Link>
-                            </Grid>
-                            <Grid item>
-                            <Link href="#" variant="body2">
-                                {"Don't have an account? Sign Up"}
-                            </Link>
-                            </Grid>
-                        </Grid>
                     </form>
                 </Grid>
             </Grid>
