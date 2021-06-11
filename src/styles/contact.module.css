@@ -14,4 +14,10 @@
     width: 100%;
     padding: 0.5rem;
     resize: none;
+    border-radius: 0.5rem;
 }
+
+/* .textField.MuiInputBase-input.MuiOutlinedInput-input {
+    border: 1px solid white;
+    color: white;
+} */
