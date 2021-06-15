@@ -25,7 +25,7 @@ const Projects = ({ data }) => {
             </Link>
           ))}
         </div>
-        <p>Likewhat you see? email me at {contact} for a quote!</p>
+        <p>Like what you see? <Link to="/contact">contact me</Link> for a quote!</p>
       </div>
     </Layout>
   );
