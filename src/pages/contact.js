@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout';
-import { Button, Grid, Typography, TextField, FormControlLabel, Link, TextareaAutosize } from '@material-ui/core';
+import { Button, Grid, Typography, TextField, TextareaAutosize } from '@material-ui/core';
 import styles from '../styles/contact.module.css';
 
 const Contact = () => {
@@ -13,6 +13,7 @@ const Contact = () => {
                 <Grid item xs={7}>
                     <form className={styles.form}>
                         <TextField
+                            className={styles.textField}
                             variant="outlined"
                             margin="normal"
                             required
@@ -23,6 +24,7 @@ const Contact = () => {
                             autoFocus
                         />
                         <TextField
+                            className={styles.textField}
                             variant="outlined"
                             margin="normal"
                             required
@@ -32,7 +34,7 @@ const Contact = () => {
                             type="email"
                             id="email"
                         />
-                        <TextareaAutosize className={styles.textArea} label="Message" aria-label="minimum height" fullWidth rowsMin={10} placeholder="Enter your message here ..." />
+                        <TextareaAutosize className={styles.textArea} label="Message" aria-label="minimum height" rowsMin={10} placeholder="Enter your message here ..." />
                         <Button
                             type="submit"
                             fullWidth
@@ -40,7 +42,7 @@ const Contact = () => {
                             color="primary"
                             className={styles.submit}
                         >
-                            Sign In
+                            Submit
                         </Button>
                     </form>
                 </Grid>
