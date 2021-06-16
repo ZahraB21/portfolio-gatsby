@@ -13,12 +13,13 @@ export default makeStyles( theme => ({
         justifyContent: 'space-between',
         fontSize: '1.25rem',
         
+        
     },
     pageLink: {
+        borderBottom: '1px solid #261E59',
         '&:hover': {
-            color: '#d42991',
-            borderBottom: '1px solid #d42991',
-            fontWeight: 'bold'
+            color: '#F2A057',
+            borderBottom: '1px solid #E56F15',
         }   
     }
 }));
