@@ -17,7 +17,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #D42990;
+  /* background: #D42990; */
+  background: #F2A057;
   padding: 10px 16px;
   border-radius: 10px;
   margin-top: 20px;
