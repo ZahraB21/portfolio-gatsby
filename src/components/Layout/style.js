@@ -13,7 +13,7 @@ export default makeStyles(theme => ({
     footerDetails: {
         width: '100%',
         textAlign: 'center',
-        color: '#bbb',
+        color: '#F2D5C4',
         margin: '30px auto',
     }
 }));
